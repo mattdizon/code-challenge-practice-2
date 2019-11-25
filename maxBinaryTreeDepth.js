@@ -29,3 +29,46 @@ const depthHandler = (root, num) => {
     }
 }
 
+const root = {
+    value: 10,
+    left: {
+      value: 5,
+      left: {
+        value: 4,
+        left: null,
+        right: {
+          value: 6,
+          left: {
+            value: 3,
+            left: {
+              value: 2,
+              left: null,
+              right: null,
+            },
+            right: null,
+          },
+          right: null,
+        },
+      },
+      right: {
+        value: 8,
+        left: null,
+        right: null,
+      },
+    },
+    right: {
+      value: 20,
+      left: null,
+      right: {
+        value: 30,
+        left: null,
+        right: {
+          value: 40,
+          left: null,
+          right: null,
+        },
+      }
+    }
+  };
+
+  console.log(maxDepth(root));

@@ -1,0 +1,9 @@
+Binary Search Tree: 
+    A binary tree can only have 2 nodes(children) at most at only 1 root
+    The left node is less than the root, which is less than all right nodes
+
+    Preorder Traveral: root then left then right 
+    Postorder Traveral: Left then root then right 
+    Inorder Traversal: left then right then root
+
+    Typically we use inorder so nodes are printed in order
