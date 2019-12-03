@@ -18,7 +18,7 @@ const isAnagram = (s, t) => {
         }else{
             word2[curr2] += 1
         }
-    }
+    } 
     for(let i = 0; i < t.length; i++){
         let curr = t[i]
         if(word[curr] !== word2[curr]){
