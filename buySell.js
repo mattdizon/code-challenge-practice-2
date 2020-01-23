@@ -20,5 +20,5 @@ const buySell = (arr) => {
             profits += prices[i] - prices[i - 1];
         }
     }
-    return profits;
+    return profits
 }
